@@ -1,5 +1,28 @@
+:root{
+    --backcolor: rgb(236, 231, 231);
+    --add-btn: rgb(22, 201, 67);
+    --delete-btn: rgb(240, 29, 13);
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+.btn{
+    padding: 1rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#add-btn{
+    background-color: var(--add-btn);
+}
+#delete-btn{
+    background-color: var(--delete-btn);
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--backcolor);
 }

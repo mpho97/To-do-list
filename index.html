@@ -8,7 +8,27 @@
 </head>
 <body>
     <div id="container">
-        
+        <h1>TO DO LIST</h1>
+        <form>
+            <input type="text" id="activity_name" placeholder="Enter activity name....">
+            <button id="add-btn" class="btn">Add</button>
+        </form>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Activity</th>
+                    <th>Name</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>01</th>
+                    <th>Jogging</th>
+                    <th><button  id="delete-btn" class="btn">Delete</button></th>
+                </tr>
+            </tbody>
+        </table>
     </div>
     <script type="module" src="ui/js/index.js"></script>
 </body>
